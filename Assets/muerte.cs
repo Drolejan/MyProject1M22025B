@@ -3,7 +3,7 @@ using UnityEngine;
 public class muerte : MonoBehaviour
 {
     public Transform spawn,pelota;//Variable para la posición de mi spawn y mi pelota
-    Rigidbody2D pelotaRB;
+    [SerializeField] Rigidbody2D pelotaRB;
     void Start()
     {
         //Busco el objeto Player y obtengo su componente rigidbody2d
